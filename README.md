@@ -1,7 +1,7 @@
 # Spendings-Tracker
 
-Function: Records how much money the user has spent.\n
-Language: Python\n
+Function: Records how much money the user has spent.
+Language: Python
 Features: - Add/Delete records.
           - Add/Delete categories.
           - Find records based on category/year&month.
