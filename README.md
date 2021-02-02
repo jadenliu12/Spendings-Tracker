@@ -1,2 +1,10 @@
 # Spendings-Tracker
-An application build using python's Tkinter, which functions as a tracker for how much money the user has spend.
+
+Function: Records how much money the user has spent.
+Language: Python
+Features: - Add/Delete records.
+          - Add/Delete categories.
+          - Find records based on category/year&month.
+          - Organize records based on date&time/category/description/amount.
+          - Displays current records, categories and balance.
+         
