@@ -229,7 +229,7 @@ root.title('Pymoney')
 f = tk.Frame(root, borderwidth = 5)
 f.grid(row = 0, column = 0)
 
-####### LEFT SIDE ###########
+### LEFT HALF ###
 
 find_category_label = tk.Label(f, text = 'Find cateogry')
 find_category_label.grid(row = 0, column = 0)
@@ -278,7 +278,7 @@ organize_button.grid(row = 9, column = 5)
 delete_button = tk.Button(f, text = 'Delete', width = 4, command = delete)
 delete_button.grid(row = 9, column = 6)
 
-####### RIGHT SIDE ###########
+### RIGHT HALF ###
 
 operation_radio_str = tk.StringVar(f, 1)
 record_radio_button = tk.Radiobutton(f, text = ' Record ', variable = operation_radio_str, value = 1, indicator = 0, command = change_mode)
