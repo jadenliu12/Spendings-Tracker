@@ -33,3 +33,6 @@ The pymoney.py is the main code for the application, since that everything that 
 - Scrollbar
 - List Box
 - Combo Box
+
+## Final Result
+![GUI.png] (https://github.com/jadenliu12/Spendings-Tracker/blob/main/GUI.png)
