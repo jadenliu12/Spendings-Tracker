@@ -4,7 +4,12 @@ import re
 
 class Record:
     """
-    ADT representation of a record
+    ADT representation of a record with attributes:
+    1. category
+    2. description
+    3. amount
+    4. date
+    5. time
     """
     def __init__(self, category, description, amount, date, time):
         """
