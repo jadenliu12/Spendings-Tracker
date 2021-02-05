@@ -35,4 +35,4 @@ The pymoney.py is the main code for the application, since that everything that 
 - Combo Box
 
 ## Final Result
-![GUI.png] (https://raw.githubusercontent.com/jadenliu12/Spendings-Tracker/main/GUI.png)
+![GUI.png](GUI.png)
