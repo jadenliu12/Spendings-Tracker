@@ -4,7 +4,7 @@ class Categories:
     Constructor         -- Get the categories list from "categories.txt"
     Add                 -- Add a new category into the current categories list
     Delete              -- Delete a category from the current categories list
-    View                -- Display the current categories and subcategories
+    Show                -- Display the current categories and subcategories
     Is_category_valid   -- Checks whether a category is inside the category list or not
     Find_subcategories  -- Find the subcategories of a category
     Save                -- Save the current category list into the file "categories.txt"
@@ -151,29 +151,6 @@ class Categories:
             self._categories = self.make_list(cat_str)
         except ValueError:
             print("Invalid input.\nFailed to delete category")
-
-    def view(self):
-        """
-        view() method:
-        Parameters      -- self
-        Function        -- prints the category inside the categories list
-        """
-        def view_categories(L, tab = -1):
-            """
-            view_categories() function:
-            Parameters      -- Categories (list) and amount of indentation (int) defaults to -1
-            Function        -- Recursively prints the category inside the categories list
-            Return          -- None
-            """
-            if L == None:
-                return
-            if type(L) == list:
-                for sub in L:
-                    view_categories(sub, tab+1)
-            else:
-                print(' '*2*tab + '- ' + L)
-
-        view_categories(self._categories)
 
     def is_category_valid(self, target):
         """
