@@ -1,4 +1,4 @@
-# Spendings-Tracker
+# Spendings Tracker
 
 ## Basic Informations
 Function: Records how much money the user has spent.  
